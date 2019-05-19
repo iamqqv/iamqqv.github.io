@@ -37,8 +37,16 @@ main.main-content {
     text-align: center;
 }
 
+.slick-prev:before, .slick-next:before {
+    color: #000000;
+}
+
 .slider img {
     height: 300px;
+}
+
+.slick-slider {
+    margin: 0 15px 30px 15px;
 }
 
 .slick-slide {
