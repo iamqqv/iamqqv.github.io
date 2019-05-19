@@ -20,11 +20,27 @@
 </head>
 <body>
 <div class="container">
-    <nav class="mt-2">
-        <!--        <i class="fas fa-bars"></i>-->
-        <figure class="brand-logo text-center">
-            <img class="img-fluid" src="img/cherry-blossom-logo.png" alt="cherry blossom - fine design since 1999">
-        </figure>
+    <nav class="navbar-nav mt-2 sticky-top">
+        <div class="nav-wrapper">
+            <button href="#" class="dropdown-toggle bg-transparent border-0" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="burger fas fa-bars"></i>
+            </button>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#cahier">cahier</a>
+                <a class="dropdown-item" href="#en-couleurs">en couleurs</a>
+                <a class="dropdown-item" href="#exhibition">exhibition</a>
+                <a class="dropdown-item" href="#classique">classique</a>
+            </div>
+
+            <figure class="brand-logo">
+                <a href="#" class="navbar-brand">
+                    <img class="img-fluid" src="img/cherry-blossom-logo.png"
+                         alt="cherry blossom - fine design since 1999">
+                </a>
+            </figure>
+        </div>
     </nav>
 
     <!-- Main Content Wrapper -->
@@ -58,33 +74,35 @@
         </section>
 
         <!-- Section 2 -->
-        <section class="cahier">
+        <section class="cahier" id="cahier">
             <!-- The divider line for the section. Also a link -->
             <div class="section-name mt-4 mb-4">
                 cherryblossom cahier
             </div>
             <!-- Content for this section -->
-            <div class="multiple-items slider slick-slider slick-dotted">
-                <div>
-                    <img src="img/unsplash5.jpg" alt="">
-                </div>
-                <div>
-                    <img src="img/unsplash6.jpg" alt="">
-                </div>
-                <div>
-                    <img src="img/unsplash7.jpg" alt="">
-                </div>
-                <div>
-                    <img src="img/unsplash8.jpg" alt="">
-                </div>
-                <div>
-                    <img src="img/unsplash9.jpg" alt="">
+            <div class="container">
+                <div class="multiple-items slider slick-slider slick-dotted">
+                    <div>
+                        <img src="img/unsplash5.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="img/unsplash6.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="img/unsplash7.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="img/unsplash8.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="img/unsplash9.jpg" alt="">
+                    </div>
                 </div>
             </div>
             <!-- The divider line for the section. Also a link -->
         </section>
 
-        <section class="en-couleurs">
+        <section class="en-couleurs" id="en-couleurs">
             <div class="section-name mt-4 mb-4">
                 cherryblossom en couleurs
             </div>
@@ -114,7 +132,7 @@
             </div>
         </section>
 
-        <section class="exhibition">
+        <section class="exhibition" id="exhibition">
             <!-- The divider line for the section. Also a link -->
             <div class="section-name mt-4 mb-4">
                 cherryblossom exhibition
@@ -131,7 +149,7 @@
             </div>
         </section>
 
-        <section class="classique">
+        <section class="classique" id="classique">
             <div class="section-name mt-4 mb-4">
                 cherryblossom classique
             </div>
