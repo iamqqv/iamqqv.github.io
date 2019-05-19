@@ -1,0 +1,29 @@
+body {
+    font-family: 'Special Elite', cursive;
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+section {
+    position: relative;
+}
+
+.section-name {
+    border-top: 1px solid black;
+    text-align: right;
+}
+
+.brand-logo img {
+    width: 200px;
+    text-align: center;
+}
+
+.slider img {
+    height: 300px;
+}
+
+.slick-slide {
+    margin: 15px;
+}
