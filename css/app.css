@@ -3,13 +3,22 @@ body {
 }
 
 nav {
-    border-bottom: 1px solid black;
     background: #ffffff;
 }
 
 section {
     position: relative;
-    padding-top: 5px;
+}
+
+main.main-content {
+    border-top: 1px solid black;
+}
+
+.anchor {
+    display: block;
+    height: 73px;
+    margin-top: -73px;
+    visibility: hidden;
 }
 
 .nav-wrapper {
