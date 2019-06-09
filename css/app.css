@@ -1,5 +1,12 @@
 body {
-    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+    font-family: 'Roboto Mono Light', sans-serif;
+}
+
+h2, .h2 {
+    font-size: 24px;
+    font-family: 'Special Elite', sans-serif;
+    color: #333;
 }
 
 nav {
@@ -25,11 +32,13 @@ main.main-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 67px;
 }
 
 .section-name {
     border-top: 1px solid black;
     text-align: right;
+    font-size: 14px;
 }
 
 .brand-logo img {
@@ -55,4 +64,11 @@ main.main-content {
 
 button.dropdown-toggle:after {
     content: none;
+}
+
+/* Responsive Styles */
+@media (min-width: 992px) {
+    section {
+        padding: 0 50px;
+    }
 }
