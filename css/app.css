@@ -78,7 +78,7 @@ button.dropdown-toggle:after {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 991px) {
     .brand-logo {
         margin: auto;
     }
