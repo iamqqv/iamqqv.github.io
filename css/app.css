@@ -1,6 +1,7 @@
 body {
     font-size: 18px;
     font-family: 'Roboto Mono Light', sans-serif;
+    color: #000;
 }
 
 h2, .h2 {
@@ -18,13 +19,13 @@ section {
 }
 
 main.main-content {
-    border-top: 1px solid black;
+    border-top: 1px solid #999;
 }
 
 .anchor {
     display: block;
-    height: 73px;
-    margin-top: -73px;
+    height: 70px;
+    margin-top: -70px;
     visibility: hidden;
 }
 
@@ -36,7 +37,7 @@ main.main-content {
 }
 
 .section-name {
-    border-top: 1px solid black;
+    border-top: 1px solid #999;
     text-align: right;
     font-size: 14px;
 }
@@ -62,13 +63,23 @@ main.main-content {
     margin: 15px;
 }
 
+button:focus {
+    outline: none;
+}
+
 button.dropdown-toggle:after {
     content: none;
 }
 
 /* Responsive Styles */
 @media (min-width: 992px) {
-    section {
-        padding: 0 50px;
+    .section-wrapper {
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .brand-logo {
+        margin: auto;
     }
 }
