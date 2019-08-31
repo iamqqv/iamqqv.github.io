@@ -1,22 +1,22 @@
 $(document).ready(function () {
     $('.slider').not('.slick-initialized').slick({
         infinite: true,
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 1,
         arrows: true,
         centerMode: true,
         variableWidth: true,
         dots: true,
-        // responsive: [
-        //     {
-        //         breakpoint: 480,
-        //         settings: {
-        //             slidesToShow: 1,
-        //             slidesToScroll: 1,
-        //             infinite: true,
-        //             dots: true
-        //         }
-        //     }
-        // ]
     });
+});
+
+// vanilla JS
+// init with element
+// var grid = document.querySelector('.grid');
+// var msnry = new Masonry( grid, {
+//     itemSelector: '.grid-item',
+//     columnWidth: 200
+// });
+
+$('.masonry-grid').masonry({
+    itemSelector: '.masonry-grid-item',
 });
