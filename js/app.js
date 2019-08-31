@@ -9,9 +9,10 @@ $(document).ready(function () {
     });
 });
 
+
 $('.masonry-grid').imagesLoaded(function() {
     $('.masonry-grid').masonry({
-        itemSelector: '.masonry-item'
+        itemSelector: '.masonry-grid-item',
     });
 });
 
