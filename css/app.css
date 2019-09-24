@@ -101,8 +101,8 @@ main.main-content {
 
 .anchor {
     display: block;
-    height: 70px;
-    margin-top: -70px;
+    height: 65px;
+    margin-top: -65px;
     visibility: hidden;
 }
 
