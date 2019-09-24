@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('.slider').not('.slick-initialized').slick({
         infinite: true,
-        slidesToShow: 1,
+        slidesToShow: 2,
         arrows: true,
         centerMode: true,
         variableWidth: true,
