@@ -56,6 +56,13 @@
 }
 
 @media (min-width: 1000px) {
+    .en-couleurs figure {
+        margin: 0;
+    }
+
+    .masonry-grid {
+        margin: 0 auto;
+    }
     .masonry-grid-item {
         width: 33.333%;
     }
@@ -68,15 +75,16 @@
 }
 
 body {
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-family: 'Roboto', Arial, sans-serif;
     color: #000;
 }
 
 h2, .h2 {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-family: 'Special Elite', sans-serif;
     color: #333;
+    margin-bottom: 1rem;
 }
 
 nav {
@@ -103,6 +111,11 @@ main.main-content {
     justify-content: space-between;
     align-items: center;
     height: 67px;
+    padding: 0 10px;
+}
+
+.navbar-brand {
+    margin-right: 0;
 }
 
 .section-name {
@@ -130,7 +143,7 @@ main.main-content {
 }
 
 .slick-slide {
-    margin: 15px;
+    margin: 0 7px;
 }
 
 button:focus {
