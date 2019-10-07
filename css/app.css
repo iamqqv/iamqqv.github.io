@@ -154,6 +154,18 @@ button.dropdown-toggle:after {
     content: none;
 }
 
+.list-group {
+    justify-content: flex-end;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.links a {
+    color: #000;
+}
+
 /* Responsive Styles */
 @media (min-width: 992px) {
     .section-wrapper {
