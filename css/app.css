@@ -114,6 +114,10 @@ main.main-content {
     padding: 0 10px;
 }
 
+.navbar-nav {
+    box-shadow: 0 2px 2px -2px #999;
+}
+
 .navbar-brand {
     margin-right: 0;
 }
@@ -135,7 +139,7 @@ main.main-content {
 }
 
 .slider img {
-    height: 300px;
+    height: 500px;
 }
 
 .slick-slider {
@@ -166,10 +170,22 @@ button.dropdown-toggle:after {
     color: #000;
 }
 
+.list-group {
+    justify-content: center;
+}
+
 /* Responsive Styles */
 @media (min-width: 992px) {
     .section-wrapper {
         padding: 0 100px;
+    }
+
+    .list-group {
+        justify-content: flex-end;
+    }
+
+    .col-md-offset-right-custom {
+        padding-right: 11%;
     }
 }
 
