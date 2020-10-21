@@ -74,6 +74,9 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
     color: #000;
 }
+.privacy, .imprint {
+    font-family: Arial sans-serif !important;
+}
 
 h2, .h2 {
     font-size: 1.375rem;
