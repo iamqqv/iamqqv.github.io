@@ -132,6 +132,35 @@ main.main-content {
     text-align: center;
 }
 
+.slick-prev:before
+{
+    content: url("../assets/img/slider-arrow.jpg");
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: url("../assets/img/slider-arrow.jpg");
+}
+
+.slick-next:before
+{
+    content: url("../assets/img/slider-arrow.jpg");
+}
+[dir='rtl'] .slick-next:before
+{
+    content: url("../assets/img/slider-arrow.jpg");
+}
+
+.slick-next {
+    right: -35px;
+    transform: rotate(180deg);
+    height: 30px;
+}
+
+.slick-prev {
+    left: -35px;
+    height: 60px;
+}
+
 .slick-prev:before, .slick-next:before {
     color: #000000;
 }
@@ -177,7 +206,7 @@ button.dropdown-toggle:after {
     .section-wrapper {
         padding: 0 100px;
     }
-    .fine-design > .section-wrapper {
+    .fine-design, .close-up > .section-wrapper {
         padding: 0;
     }
 
