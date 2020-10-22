@@ -6,8 +6,6 @@ $(document).ready(function () {
         variableWidth: true,
         dots: true,
         arrows: true,
-        // prevArrow: "<img class='prevArrow' src='../assets/img/slider-arrow.jpg'>",
-        // nextArrow: "<img class='nextArrow' src='../assets/img/slider-arrow.jpg'>"
     });
 });
 
