@@ -18,9 +18,15 @@
     max-width: 100%;
 }
 
-.imprint, .privacy, .about-us > .container {
-    max-width: 1000px;
+@media (min-width: 1200px) {
+    .imprint, .privacy, .about-us > .container {
+        max-width: 1000px;
+    }
 }
+
+/*.imprint, .privacy > .container {*/
+/*    max-width: 1000px;*/
+/*}*/
 
 .masonry-grid-item:hover img {
     -webkit-transform: scale(1.6);
