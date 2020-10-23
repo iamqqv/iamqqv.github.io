@@ -249,6 +249,11 @@ button.dropdown-toggle:after {
     padding-bottom: 50px;
 }
 
+.claim {
+    max-width: 400px;
+    margin:auto;
+}
+
 /* Responsive Styles */
 @media (min-width: 992px) {
     .section-wrapper {
