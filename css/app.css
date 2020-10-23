@@ -18,6 +18,10 @@
     max-width: 100%;
 }
 
+.imprint, .privacy, .about-us > .container {
+    max-width: 1000px;
+}
+
 .masonry-grid-item:hover img {
     -webkit-transform: scale(1.6);
     transform: scale(1.6);
@@ -162,19 +166,23 @@ main.main-content {
 .slick-prev:before
 {
     content: url("../assets/img/slider-arrow.jpg");
+    opacity: 0.25;
 }
 [dir='rtl'] .slick-prev:before
 {
     content: url("../assets/img/slider-arrow.jpg");
+    opacity: 0.25;
 }
 
 .slick-next:before
 {
     content: url("../assets/img/slider-arrow.jpg");
+    opacity: 0.25;
 }
 [dir='rtl'] .slick-next:before
 {
     content: url("../assets/img/slider-arrow.jpg");
+    opacity: 0.25;
 }
 
 .slick-next {
@@ -198,6 +206,8 @@ main.main-content {
 
 .slick-slider {
     margin: 0 15px 30px 15px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .slick-slide {
@@ -228,6 +238,11 @@ button.dropdown-toggle:after {
     justify-content: center;
 }
 
+.section-wrapper > .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /* Responsive Styles */
 @media (min-width: 992px) {
     .section-wrapper {
@@ -244,8 +259,14 @@ button.dropdown-toggle:after {
     .col-md-offset-right-custom {
         padding-right: 11%;
     }
+}
 
+#dropdownMenuButton {
+    font-size: 23px;
+}
 
+.text-smaller {
+    font-size: 12px;
 }
 
 .brand-logo {
