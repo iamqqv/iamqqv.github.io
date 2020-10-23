@@ -19,7 +19,7 @@
 }
 
 @media (min-width: 1200px) {
-    .imprint, .privacy, .about-us > .container {
+    .main, .imprint, .privacy, .about-us > .container {
         max-width: 1000px;
     }
 }
