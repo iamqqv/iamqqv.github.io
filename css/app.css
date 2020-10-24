@@ -283,3 +283,11 @@ button.dropdown-toggle:after {
 .brand-logo {
     margin: auto;
 }
+
+.pl-15px {
+    padding-left: 15px;
+}
+
+.pr-15px {
+    padding-right: 15px;
+}
