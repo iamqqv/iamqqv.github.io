@@ -169,24 +169,20 @@ main.main-content {
     text-align: center;
 }
 
-.slick-prev:before
-{
+.slick-prev:before {
     content: url("../assets/img/slider-arrow.jpg");
     opacity: 0.25;
 }
-[dir='rtl'] .slick-prev:before
-{
+[dir='rtl'] .slick-prev:before {
     content: url("../assets/img/slider-arrow.jpg");
     opacity: 0.25;
 }
 
-.slick-next:before
-{
+.slick-next:before {
     content: url("../assets/img/slider-arrow.jpg");
     opacity: 0.25;
 }
-[dir='rtl'] .slick-next:before
-{
+[dir='rtl'] .slick-next:before {
     content: url("../assets/img/slider-arrow.jpg");
     opacity: 0.25;
 }
@@ -211,9 +207,9 @@ main.main-content {
 }
 
 .slick-slider {
-    margin: 0 15px 30px 15px;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin: 0 50px 30px 50px;
+    /*padding-left: 50px;*/
+    /*padding-right: 50px;*/
 }
 
 .slick-slide {
@@ -251,7 +247,7 @@ button.dropdown-toggle:after {
 
 .claim {
     max-width: 400px;
-    margin:auto;
+    margin: auto;
 }
 
 .text-smaller {
