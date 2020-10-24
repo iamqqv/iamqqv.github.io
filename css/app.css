@@ -254,6 +254,10 @@ button.dropdown-toggle:after {
     margin:auto;
 }
 
+.text-smaller {
+    font-size: 11px;
+}
+
 /* Responsive Styles */
 @media (min-width: 992px) {
     .section-wrapper {
@@ -262,6 +266,10 @@ button.dropdown-toggle:after {
     /*.fine-design, .close-up > .section-wrapper {*/
     /*    padding: 0;*/
     /*}*/
+
+    .text-smaller {
+        font-size: 12px;
+    }
 
     .list-group {
         justify-content: flex-end;
@@ -274,10 +282,6 @@ button.dropdown-toggle:after {
 
 #dropdownMenuButton {
     font-size: 23px;
-}
-
-.text-smaller {
-    font-size: 12px;
 }
 
 .brand-logo {
